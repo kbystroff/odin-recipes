@@ -2,6 +2,43 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+
+}
+.caption{
+    text-align: center;
+    font-size: 14px;
+}
+
+.ingredients{
+    border: 1px solid black;
+    margin: 30px;
+    background-color:cornsilk;
+    padding: 20px;
+}
+.ingredients.tuna{
+    background-color:#d0d78b;
+}
+
+.ingredients.pineapple{
+    background-color: #fad9d7;
+}
+
+.instructions{
+    border: 1px solid black;
+    margin: 30px;
+    background-color: cornsilk;
+    padding: 25px;
+}
+
+.instructions.tuna{
+    background-color:#d0d78b;
+}
+
+.instructions.pineapple{
+    background-color: #fad9d7;
+}
 img {
     display: block;
     margin-left: auto;
@@ -10,7 +47,7 @@ img {
     width: 400px;
 }
 
-ul {
+.links {
     text-align: center;
     list-style: none;
     font-size: 22px;
